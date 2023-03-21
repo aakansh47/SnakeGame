@@ -4,8 +4,7 @@
                
 1. SnakeGame -> Contains the 'main' functions. Calls GameFrame class by creating it's object.
 2. GameFrame -> Initializes a GamePanel Object. Extends 'JFrame', helps in creating a window to run the game, specify attricutes such as title, window visiability etc.
-3. GamePanel -> This class consist of all the functional components. We set Static values such as UNIT_SIZE, SCREEN_WIDTH , SCREEN_HEIGHT etc. GamePanel constructor 
-             constructs core fundamentals of the screen such as Background Color, Visibility variable and also adds a Key Listner object to the GamePanel Object.
+3. GamePanel -> 
              The main logic of the game is implemented in the GamePanel class, which extends the JPanel class and implements the ActionListener interface.
              The GamePanel class contains several fields that hold the state of the game, such as the current direction of the snake, the position of the apple,
              the number of body parts of the snake, and the number of apples eaten.
